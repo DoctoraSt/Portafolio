@@ -242,7 +242,8 @@ footer{
     }
 
     .sobreMi{
-        padding: 2%;
+        margin: 3%;
+        padding: 1%;
     }
 
     .container{
@@ -253,5 +254,43 @@ footer{
 
 /**--Cambio de estilo a teléfono--**/
 @media screen and (max-width: 480px){
-    
+    header{
+        width: 480px;
+    }
+
+    .minium{
+        font-size: smaller;
+        padding: 1%;
+    }
+
+    .sobreMi{
+        padding: 2%;
+    }
+
+    .container{
+        display: flex;
+        width: 100px;
+        padding: 1%;
+        margin: 1%;
+        justify-content: center;
+    }
+
+    .HTML{
+        width: 100%;
+    }
+
+    .container2{
+        margin: 1%;
+    }
+
+    .fondo2{
+        margin: 1%;
+    }
+
+    .mobil{
+        display: flex;
+        width: 90%;
+        margin: 5%;
+        justify-content: center;
+    }
 }
