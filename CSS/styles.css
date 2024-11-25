@@ -142,17 +142,35 @@ p{
 }
 
 .repoBoton{
+    border-radius: 20px;
     width: 100px;
     background-color: #000000;
     color: #d9d2d0;
-    outline:none ;
+    border: none;
+}
+
+.repoBoton:hover{
+    border-radius: 20px;
+    width: 100px;
+    background-color: #d9d2d0;
+    color: #000000;
+    border: none;
 }
 
 .demoBoton{
+    border-radius: 20px;
     width: 100px;
     background-color: #464646;
     color: #d9d2d0;
-    outline:none;
+    border: none;
+}
+
+.demoBoton:hover{
+    border-radius: 20px;
+    width: 100px;
+    background-color: #d9d2d0;
+    color: #464646;
+    border: none;
 }
 
 .encriptador{
@@ -186,26 +204,6 @@ footer{
     flex-direction: column;
     align-items: center;
     gap: 32px;
-}
-
-.inputContacto{
-    display: flex;
-    align-items: center;
-    height: 30px;
-    width: 300px;
-}
-
-.inputMensaje{
-    display: flex;
-    align-items: center;
-    height: 120px;
-    width: 300px;
-}
-
-.imagenContacto{
-    width: 464px;
-    height: 593px;
-    margin-left: 300px;
 }
 
 .recuadroForm{
