@@ -10,6 +10,10 @@ nav{
     border-bottom: 25px;
 }
 
+.text-encriptador{
+    color: #000000;
+}
+
 .links{
     display: flex;
     font-weight: bold;
