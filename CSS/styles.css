@@ -199,6 +199,11 @@ p{
     gap: 10px;
 }
 
+.buttonMore{
+    display: flex;
+    justify-content: center;
+}
+
 footer{
     text-align: center;
 }
