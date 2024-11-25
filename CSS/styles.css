@@ -134,15 +134,16 @@ p{
     height: 112px;
 }
 
-.logistica{
-    width: 870px;
-    height: 500px;
-}
 
 .container3{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.mobil{
+    padding: 3%;
+    width: 100%;
 }
 
 .repoBoton{
@@ -177,11 +178,6 @@ p{
     border: none;
 }
 
-.encriptador{
-    width: 900px;
-    height: 500px;
-    padding: 10px;
-}
 
 .botones{
     display: flex;
@@ -235,8 +231,24 @@ footer{
 
 /**-- Cambio de estilo para tablet -- **/
 @media screen and (max-width: 768px)  {
+    header{
+        width: 768px;
+    }
     
+    .mobil{
+        display: flex;
+        padding: 2%;
+        width: 100%;
+    }
 
+    .sobreMi{
+        padding: 2%;
+    }
+
+    .container{
+        margin: 1%;
+        padding: 1%;
+    }
 }
 
 /**--Cambio de estilo a teléfono--**/
